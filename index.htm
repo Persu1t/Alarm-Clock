@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- This is the css tag -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+
+    <!-- anaimate.css cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <title>Alarm Clock</title>
+  </head>
+  <body>
+    <header>
+      <!-- This is main heading -->
+      <div class="main-heading">
+        <h1 class="animate__animated animate__lightSpeedInRight">
+          Alarm Clock <span><i class="bi bi-alarm"></i></span>
+        </h1>
+      </div>
+      <!-- main heading closed -->
+    </header>
+
+    <main>
+      <div class="clock-container center"></div>
+      <div class="day-date-container">
+        <small class="day-container center large"></small>
+        <small class="date-container center large"></small>
+      </div>
+      <div id="date-alarm-setter">
+        <form action="" id="alarm-date-setter-form">
+          <div class="alarm-input center">
+            <select name="hours" id="hours" class="large" required></select>
+
+            <select name="minutes" id="minutes" class="large"></select>
+
+            <select name="seconds" id="seconds" class="large"></select>
+
+            <select name="session" id="am-pm" class="large" required>
+              <option value="AM">AM</option>
+              <option value="PM">PM</option>
+            </select>
+            <input type="submit" id="alarm-submit-btn" class="large" />
+          </div>
+        </form>
+      </div>
+      <div class="alarm-list-container">
+        <ul id="alarm-list" class="center">
+          <!-- <li>
+            <span class = "time-set-by-user">11:45:00 am</span>
+            <button class = "delete-btn" data-id = "16edfiA56783">Delete</button>
+          </li> -->
+        </ul>
+      </div>
+    </main>
+
+    <!-- This is the script tag -->
+    <script src="index.js"></script>
+  </body>
+</html>

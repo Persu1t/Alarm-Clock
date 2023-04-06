@@ -1,0 +1,41 @@
+/* ********** Header-Tag ********** */
+.main-heading{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ********** Main-tag ********** */
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+.large{
+  font-size: larger;
+}
+.clock-container{
+  font-size: x-large;
+}
+.day-date-container{
+  margin-bottom: 5px;
+}
+#alarm-list{
+  list-style: none;
+}
+.btn{
+  font-size: large;
+  margin-left: 1vw;
+  border-radius: 50%;
+  padding: 5px;
+}
+#alarm-submit-btn{
+  margin-left: 1vw;
+  border-radius: 50%;
+  padding: 5px;
+}
+#alarm-submit-btn:hover{
+  background-color: rgb(53, 203, 53);
+}
+.btn:hover{
+  background-color: rgb(235, 39, 39);
+}
