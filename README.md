@@ -1,5 +1,5 @@
 Alarm Clock
-This is an alarm clock project that allows users to set and delete alarms. The clock displays the current time and rings an alarm when a set time is reached.
+This is an alarm clock project that allows users to set and delete alarms. The clock displays the current time and alerts an alarm when a set time is reached.
 
 Features
 Set and delete alarms
