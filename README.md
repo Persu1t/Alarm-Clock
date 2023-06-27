@@ -24,7 +24,7 @@ To delete an alarm, click the "Delete" button next to the alarm in the alarm lis
 Clone the repository: git clone https://github.com/Persu1t/Alarm-Clock.git
 
 Changes are welcome.
-For the future I wnat that the alarm should ring on specific day or Alarm should only go on the selected day/days.
+For the future I want that the alarm should ring on specific day or Alarm should only go on the selected day/days.
 And should use sound to alert the user rather than the javascript "Alert".
 
 The link of the project is https://alarm-clock.rishabhshukla13.repl.co
