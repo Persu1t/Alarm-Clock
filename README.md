@@ -4,7 +4,7 @@ This is an alarm clock project that allows users to set and delete alarms. The c
 Features
 Set and delete alarms
 Display current time and day date
-Ring an alarm at a set time
+Alert an alarm at a set time
 
 Technologies I have used
 HTML
